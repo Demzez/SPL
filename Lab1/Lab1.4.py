@@ -7,7 +7,6 @@ charsWord2 = list(secondWord)
 n1 = len(charsWord1)
 n2 = len(charsWord2)
 
-
 for i in range(max(n1, n2)):
 
     if i < n1:

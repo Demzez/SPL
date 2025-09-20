@@ -15,5 +15,6 @@ else:
             odd += 1
         number //= 10
 
+# sum(1 for digit in str(number) if int(digit) % 2 == 0)
 print("Even:", even)
 print("Odd:", odd)

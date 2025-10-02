@@ -1,4 +1,8 @@
 def process_data(data):
+    # match data:
+    #     case dict:
+    #         pass
+    #     case list:
     if isinstance(data, dict):
         # Сортировка словаря
         asc = dict(sorted(data.items()))

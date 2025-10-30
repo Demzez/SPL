@@ -21,6 +21,7 @@ def calculate_firm_profit():
                 total_profit += profit
                 profitable_firms += 1
 
+
     average_profit = total_profit / profitable_firms if profitable_firms > 0 else 0
 
     result_list = [firms_profit, {"average_profit": round(average_profit)}] # округление
